@@ -1,0 +1,46 @@
+{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    min-height: 105vh;
+    flex-direction: column;
+    margin: 0;
+}
+#main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+article {
+    flex: 1;
+    
+}
+nav, aside {
+    flex: 0 0 18vw;
+}
+nav {
+    background: pink;
+}
+aside {
+    background: aqua;
+}
+header, footer{
+    background: khaki;
+    height: 18vh;
+    
+
+}
+header, footer , article , nav, aside {
+    padding: 0.5em;
+    
+}
+article, aside {
+    height: 55vh;
+}
+.big-container {
+    display: flex;
+}
+.colom {
+    display: flex;
+}
